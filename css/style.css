@@ -34,12 +34,16 @@ body{
     font-size: 10px;
 }
 
+.container-pulsante ul li:hover{
+    background-color: lightgrey;
+}
+
 .container-pulsante ul li a{
     text-decoration: none;
     color: black;
     font-size: 25px;
     font-weight: 700;
-    padding: 10px;
+    padding: 25px;
 }
 
 .posizionamento{
