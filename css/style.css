@@ -3,7 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* box sempre uguale e aggiungere delle classi con colore */
+
+.container-pulsante{
+    /* height: 100px; */
+    width: 100%;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 1001;
+}
+
+.container-pulsante ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-pulsante ul{
+    list-style: none;
+}
+
+.container-pulsante ul li{
+    float: right;
+    margin-left: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.container-pulsante a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
 .box{
     height: 100vh;
     position: relative;
@@ -39,4 +79,7 @@
 .box-3{
     background-color: yellow;
     color: green;
+}
+nav{
+
 }
