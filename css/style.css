@@ -71,15 +71,15 @@ body{
     font-weight: 600;
 }
 
-.box-1{
+.red{
     background-color: red;
     color: yellow;
 }
-.box-2{
+.green{
     background-color: lightgreen;
     color: yellow;
 }
-.box-3{
+.yellow{
     background-color: yellow;
     color: green;
 }
