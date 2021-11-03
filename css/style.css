@@ -8,12 +8,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.container{
-    
-}
-
 .container-pulsante{
-    /* height: 100px; */
     width: 100%;
     position: fixed;
     z-index: 1001;
@@ -30,28 +25,35 @@ body{
 }
 
 .container-pulsante ul li{
+    width: 70px;
+    height: 70px;
     float: right;
-    margin: 15px 15px 0;
+    margin: 20px 20px 0;
     background-color: white;
-    padding: 10px;
     border-radius: 50%;
     font-size: 10px;
 }
 
-.container-pulsante a{
+.container-pulsante ul li a{
     text-decoration: none;
     color: black;
-    font-size: 10px;
+    font-size: 25px;
     font-weight: 700;
-
+    padding: 10px;
 }
+
+.posizionamento{
+    text-align: center;
+    line-height: 70px;
+}
+
 .box{
     height: 100vh;
     position: relative;
 }
 
 .box-content{
-    width: 400px;
+    width: 550px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,7 +66,7 @@ body{
 
 .box-content h1{
     width: 100%;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     font-weight: 600;
 }
