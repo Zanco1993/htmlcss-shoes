@@ -1,4 +1,7 @@
-*{
+
+/*-------------- Metodo con float -------------*/
+
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -85,5 +88,81 @@ body{
 }
 .yellow{
     background-color: yellow;
+    color: green;
+} */
+
+
+
+
+/* 2° Metodo semplificato */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button{
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    z-index: 1001;
+}
+
+.button a{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+.button a:hover{
+    background-color: blue;
+}
+
+.box{
+    height: 100vh;
+    position: relative;
+}
+
+.content{
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content img{
+    width: 100%;
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: yellow;
+    text-align: center;
+}
+
+.box-red{
+    background-color: red;
+}
+
+.box-green{
+    background-color: green;
+}
+
+.box-yellow{
+    background-color: yellow;
+}
+#color-box-3{
     color: green;
 }
