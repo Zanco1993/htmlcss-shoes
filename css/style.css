@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    
+}
+
 .container-pulsante{
     /* height: 100px; */
     width: 100%;
-    border: 1px solid black;
     position: fixed;
     z-index: 1001;
 }
@@ -24,7 +31,7 @@
 
 .container-pulsante ul li{
     float: right;
-    margin-left: 25px;
+    margin: 15px 15px 0;
     background-color: white;
     padding: 10px;
     border-radius: 50%;
@@ -35,22 +42,16 @@
     text-decoration: none;
     color: black;
     font-size: 10px;
-    font-weight: 600;
+    font-weight: 700;
 
 }
-
-
-
-
-
-
 .box{
     height: 100vh;
     position: relative;
 }
 
 .box-content{
-    width: 500px;
+    width: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -63,7 +64,7 @@
 
 .box-content h1{
     width: 100%;
-    font-size: 45px;
+    font-size: 30px;
     text-align: center;
     font-weight: 600;
 }
@@ -79,7 +80,4 @@
 .box-3{
     background-color: yellow;
     color: green;
-}
-nav{
-
 }
